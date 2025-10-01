@@ -7,7 +7,7 @@
 
 # -------- Variables --------
 USERNAME="piratheon"           
-USERPASS="changeme"         
+USERPASS="toor"  #Default password, you can change it       
 HOSTNAME="TC-Server"
 STATIC_IP="192.168.1.10/24"
 GATEWAY="192.168.1.1"

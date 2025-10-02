@@ -1,0 +1,11 @@
+#/etc/systemd/system/ethstartup.service
+[Unit]
+Description=ethernet share startup
+After=network.target
+
+[Service]
+#script path:
+ExecStart=/opt/ethstartup.sh
+
+[Install]
+WantedBy=multi-user.target   
